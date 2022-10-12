@@ -1,1 +1,1 @@
-web: gunicorn QATestAPI.WSgi
+web: gunicorn QATestAPI.wsgi:application
